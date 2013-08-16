@@ -247,9 +247,6 @@ hints_show(jumanji_t* jumanji, jumanji_tab_t* tab)
       parent_node = webkit_dom_element_get_offset_parent(parent_node);
     }
 
-    left += webkit_dom_element_get_offset_width(WEBKIT_DOM_ELEMENT(node));
-    top  += webkit_dom_element_get_offset_height(WEBKIT_DOM_ELEMENT(node));
-
     static const gchar *hint_div_position =
       "position: absolute !important;"
       "left: %lipx !important;"

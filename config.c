@@ -62,6 +62,7 @@ config_load_default(jumanji_t* jumanji)
 
   /* hint settings */
   string_value =
+    "z-index: 10000;"
     "padding: 0px 2px;"
     "-webkit-border-radius: 4px;"
     "font-family: monospace;"
